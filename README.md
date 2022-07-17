@@ -74,3 +74,4 @@ Return:
 
 
 [1]: https://github.com/ricku44/cordova-plugin-scanner.git
+[2]: https://www.npmjs.com/package/cordova-plugin-qrscan

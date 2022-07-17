@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-qrscan",
-  "version": "1.0.0",
+  "version": "1.0.0-r",
   "description": "Customised version of cordova-plugin-zxing.",
   "cordova": {
     "id": "cordova-plugin-qrscan",
