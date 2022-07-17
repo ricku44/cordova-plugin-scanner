@@ -1,0 +1,28 @@
+{
+  "name": "cordova-plugin-scanner",
+  "version": "0.0.0",
+  "description": "Customised version of cordova-plugin-zxing.",
+  "cordova": {
+    "id": "cordova-plugin-scanner",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricku44/cordova-plugin-scanner.git"
+  },
+  "keywords": [
+    "cordova",
+    "android",
+    "zxing",
+    "barcode",
+    "qrcode",
+    "upi",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "Shivam",
+  "license": "MIT",
+  "homepage": "https://github.com/ricku44/cordova-plugin-scanner.git"
+}

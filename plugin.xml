@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='utf-8'?>
+<plugin id="cordova-plugin-scanner" version="0.0.0" 
+    xmlns="http://apache.org/cordova/ns/plugins/1.0" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <name>scanner</name>
+    <description>Customised version of cordova-plugin-zxing.</description>
+    <license>MIT</license>
+
+    <keywords>cordova,android,zxing,barcode,qr,qr code,qrcode,upi</keywords>
+    <repo>https://github.com/ricku44/cordova-plugin-scanner.git</repo>
+    <issue>https://github.com/ricku44/cordova-plugin-scanner/issues</issue>
+    <engines>
+        <engine name="cordova" version=">=4.0.0"/>
+    </engines>
+    <js-module name="scanner" src="www/scanner.js">
+        <clobbers target="cordova.plugins.scanner" />
+    </js-module>
+    <platform name="android">
+        <config-file parent="/*" target="res/xml/config.xml">
+            <feature name="scanner">
+                <param name="android-package" value="org.cordova.scanner" />
+            </feature>
+        </config-file>
+        <config-file parent="/*" target="AndroidManifest.xml">
+        </config-file>
+        <source-file src="src/android/scanner.java" target-dir="src/org/cordova" />
+    </platform>
+    <framework src="com.journeyapps:zxing-android-embedded:4.3.0" />
+</plugin>
