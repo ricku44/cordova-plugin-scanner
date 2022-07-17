@@ -2,8 +2,11 @@
 
 References:
 https://github.com/zxing/zxing
+
 https://github.com/journeyapps/zxing-android-embedded
+
 https://github.com/marceloburegio/cordova-plugin-zxing
+
 
 This library enables an inverted scan, enabling scan on dark background with white patterns.
 
